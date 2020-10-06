@@ -1,0 +1,1 @@
+import renderProdcuts from '../Products/render-products.js';

@@ -1,0 +1,20 @@
+.hat {
+    width: 200px;
+    padding: 10px;
+    border: solid 1px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.hat > img {
+    width: 100px;
+
+}
+
+.hat > p {
+    margin: 0;
+}
+
+.on-sale {
+    background-color: greenyellow;
+}
