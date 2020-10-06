@@ -1,1 +1,1 @@
-import './products.test.js';
+import renderProdcuts from '../Products/render-products.js';
