@@ -7,11 +7,13 @@ test('renders hats', (expect) => {
         id: 'hats',
         name: 'Fancy Hat',
         image: 'fancy.png',
-        description: 'This purple top hat is meant for out fanciest of occasions.',
+        description: 'This purple top hat is meant for our fanciest of occasions.',
         category: 'fancy',
         price: 20.00,
         cost: 2.00
     };
+
+    const expected =  <li id='hats' name='Fancy Hat' image='fancy.png' description='This purple top hat is meant for out fanciest of occasions.' category='fancy' price=20.00 cost=2.00>
     
     //Act 
     // Call the function you're testing and set the result to a const

@@ -7,6 +7,7 @@ body {
     
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: rgb(187, 231, 187);
+    text-align: center;
 }
 
 main {
@@ -33,14 +34,7 @@ section {
 
 header {
     display: flex;
-    justify-content: flex-end;
-}
-
-footer {
-    display: flex;
-    justify-content: flex-end;
-    background-color: var(--color3);
-    box-shadow: var(--shadow);
+    justify-content: left;
 }
 
 
@@ -54,9 +48,6 @@ h3 {
     font-weight: bold;
 }
 
-.main-logo {
-    
-}
 
 content {
     width: 80%;
