@@ -1,11 +1,10 @@
-
 const defaultOptions = {
     id: '',
     className: '',
     src: '',
     alt: '',
     value: ''
-  }
+  };
   
   export function createNewElement(elementType, textContent, optionalAttributes = defaultOptions) {
   

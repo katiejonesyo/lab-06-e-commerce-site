@@ -1,5 +1,5 @@
-import { calcLineItem, renderLineItem, calcOrderTotal } from '../pages/data/cart-utils';
-import hats from "../Products/hats"
+import { calcLineItem, renderLineItem, calcOrderTotal } from '../pages/data/cart-utils.js';
+import hats from "../Products/hats.js"
 
 const test = QUnit.test;
 
