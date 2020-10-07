@@ -1,4 +1,4 @@
-import { createNewElement } from '../utils';
+import { createNewElement } from '../utils.js';
 
 export function createProduct(productObject) {
   const { id, name, imagePath, description, category, price, alt } = productObject;
