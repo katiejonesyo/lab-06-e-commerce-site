@@ -1,17 +1,4 @@
-import { createNewElement } from 'utils.js'
-
-/*
-createProduct() produces li HTML Elements that look like this, more or less:
-<li>
-  <h4>Product Name<h4>
-  <img>
-  <p>Description</p>
-  <p>Price</p>
-  <button></button>
-</li>
-createProduct() expects a productObject as defined in hats.js
-*/
-
+import { createNewElement } from '../utils';
 
 export function createProduct(productObject) {
   const { id, name, imagePath, description, category, price, alt } = productObject;

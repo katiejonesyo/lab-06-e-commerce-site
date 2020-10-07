@@ -8,7 +8,7 @@ const defaultOptions = {
   }
   
   export function createNewElement(elementType, textContent, optionalAttributes = defaultOptions) {
-    // create element and set textContent
+  
     const element = document.createElement(elementType);
     element.textContent = textContent;
   

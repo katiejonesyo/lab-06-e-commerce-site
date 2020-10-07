@@ -9,7 +9,6 @@
     width: 55%;
     max-width: 1000px;
     margin: 50px 0;
-    color: black;
     background-color: white;
   }
   
@@ -24,11 +23,11 @@
   }
   
   tbody tr:nth-child(odd) {
-    background-color: lightblue;
+    background-color: white;
   }
   
   tbody tr:nth-child(odd) {
-    background-color: lightgray;
+    background-color: white;
   }
   
   tfoot th {
@@ -38,6 +37,6 @@
   
   .order--button {
     align-self: flex-end;
-    margin-right: 17.5%;
+    margin-right: 20%;
     font-size: 2em;
   }
