@@ -1,10 +1,9 @@
-import hats from '../Data/data.js';
-import renderProducts from './render-products.js';
+import { createProduct } from './product-utils';
+import hats from '../../js/hatsData.js';
 
-const unorderedListElements = document.getElementById('hats');
+const productList = document.querySelector('#product-list');
 
 for (let i = 0; i < hats.length; i++) {
-    const hats = hats[i];
-    const el = renderProducts(hats);
-    unorderedListElements.appendChild(el);
-};
+  const product = createProduct(hats[i]);
+  productList.append(product);
+}

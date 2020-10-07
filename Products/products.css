@@ -1,19 +1,44 @@
-.hat {
-    width: 200px;
-    padding: 10px;
-    border: solid 1px;
-    text-align: center;
-    border-radius: 5px;
-}
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 95%;
+  }
+  
+  .product {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    min-width: 300px;
+    min-height: 450px;
+    padding: 1%;
+    margin: 50px 2.5%;
+  }
+  
+  .product:nth-child(even) {
+   color: burlywood;
+  }
+  
+  .product--image {
+    width: 50%;
+  }
+  
+  .product--description {
+    color: burlywood;
+    
+  }
+  
+  .product--category {
+    font-weight: bold;
+  }
+  
+  .product--price {
+    color: burlywood;
+    
+  }
 
-.hat > img {
-    width: 100px;
-
-}
-
-.hat > p {
-    margin: 0;
-}
 
 .on-sale {
     background-color: greenyellow;
