@@ -17,7 +17,7 @@
   }
   
   tr {
-    text-align: left;
+    text-align: center;
     font-size: 1.25em;
     line-height: 2em;
   }
@@ -38,5 +38,5 @@
   .order--button {
     align-self: flex-end;
     margin-right: 20%;
-    font-size: 2em;
+    font-size: 1em;
   }
