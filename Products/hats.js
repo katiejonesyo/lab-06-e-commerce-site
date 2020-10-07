@@ -1,8 +1,7 @@
-
 const fancyHat = {
     id: "fancyHat",
     name: "Fancy Hat",
-    imagePath: ".../assets/fancy.png",
+    imagePath: "../assets/fancy.png",
     description: "Fancy purple top hat accompanied with a purple vegan feather. Wear this for special occasions.",
     category: "Fancy",
     price: 20,
@@ -44,7 +43,6 @@ const fancyHat = {
     price: 30,
   };
   
-  const hats = [fancyHat, casualHat, oottHat, rodeoHat, salebogoHat];
+  export const hats = [fancyHat, casualHat, oottHat, rodeoHat, salebogoHat];
   
-  export default hats;
-
+  

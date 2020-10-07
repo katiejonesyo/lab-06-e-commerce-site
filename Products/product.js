@@ -7,3 +7,4 @@ for (let i = 0; i < hats.length; i++) {
   const product = createProduct(hats[i]);
   productList.append(product);
 }
+
