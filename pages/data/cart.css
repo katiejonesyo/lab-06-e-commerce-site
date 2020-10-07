@@ -1,0 +1,43 @@
+.cart--container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    height: 50%;
+  }
+  
+  .cart--table {
+    width: 55%;
+    max-width: 1000px;
+    margin: 50px 0;
+    color: black;
+    background-color: white;
+  }
+  
+  thead tr {
+    background-color: blanchedalmond;
+  }
+  
+  tr {
+    text-align: left;
+    font-size: 1.25em;
+    line-height: 2em;
+  }
+  
+  tbody tr:nth-child(odd) {
+    background-color: lightblue;
+  }
+  
+  tbody tr:nth-child(odd) {
+    background-color: lightgray;
+  }
+  
+  tfoot th {
+    border-top: 1px dashed rgb(0, 0, 0);
+    background-color: none;
+  }
+  
+  .order--button {
+    align-self: flex-end;
+    margin-right: 17.5%;
+    font-size: 2em;
+  }
