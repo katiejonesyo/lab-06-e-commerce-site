@@ -1,5 +1,5 @@
-import { createProduct } from './product-utils';
-import hats from '../../js/hatsData.js';
+import { createProduct } from '../Products/product-utils';
+import hats from '../Products/hats';
 
 const productList = document.querySelector('#product-list');
 
