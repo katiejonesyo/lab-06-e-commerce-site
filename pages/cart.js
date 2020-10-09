@@ -1,7 +1,7 @@
-import cart from '../pages/data/cartData';
-import hats from '../Products/hats';
-import { findById, createNewElement } from 'utils.js';
-import { renderLineItem, calcOrderTotal } from '../pages/data/cart-utils';
+import cart from '../pages/data/cartData.js';
+import { hats } from '../products/hats.js';
+import { findById, createNewElement } from '../utils.js';
+import { renderLineItem, calcOrderTotal } from '../pages/data/cart-utils.js';
 
 const table = document.querySelector('table');
 const tbody = document.querySelector('tbody');
@@ -29,3 +29,5 @@ subTotalFooter.append(subTotalTr);
 subTotalTr.append(spacerTh, totalTextTh, subTotalTh);
 
 table.append(subTotalFooter);
+
+

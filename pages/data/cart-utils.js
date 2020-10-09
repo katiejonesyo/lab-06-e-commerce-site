@@ -1,5 +1,4 @@
-import { createNewElement } from 'utils.js';
-import { findById } from 'utils.js';
+import { createNewElement, findById } from '../../utils.js';
 
 export function calcLineItem(quantity, amount) {
   return quantity * amount;
