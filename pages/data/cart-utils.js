@@ -1,4 +1,5 @@
 import { createNewElement, findById } from '../../utils.js';
+import { getLocalStorageHats } from 'admin/admin.js';
 
 export function calcLineItem(quantity, amount) {
   return quantity * amount;
@@ -8,6 +9,8 @@ export function renderLineItem(cartItem, productObject) {
   const subTotalNumber = calcLineItem(cartItem.quantity, productObject.price);
   const subTotalString = `$${subTotalNumber.toFixed(2)}`;
   const priceString = `$${productObject.price.toFixed(2)}`
+
+  
 
   const tr = createNewElement('tr');
   const name = createNewElement('td', productObject.name);
