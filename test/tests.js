@@ -1,3 +1,3 @@
-import 'product.test.js';
-import '../test/cart.test.js';
-import '../test/utils.test.js';
+import './product.tests.js';
+import './cart.test.js';
+import './utils.test.js';

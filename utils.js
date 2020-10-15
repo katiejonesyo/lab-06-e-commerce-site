@@ -23,3 +23,7 @@ const defaultOptions = {
   export function findById(productsArray, productId) {
     return productsArray.find(product => product.id === productId);
   }
+
+  export function getLocalStorageHats() {
+    
+  }

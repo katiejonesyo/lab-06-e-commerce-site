@@ -1,3 +1,5 @@
+//export at the bottom of page
+
 const fancyHat = {
     id: "fancyHat",
     name: "Fancy Hat",
@@ -43,6 +45,6 @@ const fancyHat = {
     price: 30,
   };
   
+  
+  
   export const hats = [fancyHat, casualHat, oottHat, rodeoHat, salebogoHat];
-  
-  

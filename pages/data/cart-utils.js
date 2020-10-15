@@ -1,5 +1,5 @@
-import { createNewElement, findById } from '../../utils.js';
-import { getLocalStorageHats } from 'admin/admin.js';
+import { createNewElement, findById, getLocalStorageHats } from '../../utils.js';
+
 
 export function calcLineItem(quantity, amount) {
   return quantity * amount;

@@ -1,5 +1,5 @@
-import { findById, createNewElement } from './utils.js';
-import hats from '../Products/hats.js';
+import { findById, createNewElement } from '../utils.js';
+import { hats }from '../products/hats.js';
 
 const test = QUnit.test;
 
