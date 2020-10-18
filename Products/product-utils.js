@@ -14,16 +14,18 @@ export function createProduct(productObject) {
   const descriptionP = createNewElement('p', description, { className: "product--description" });
   const priceP = createNewElement('p', `Price: $${price.toFixed(2)}`, { className: "product--price" });
   const button = createNewElement('button', 'Add to cart', { id, value: id });
+  const myCart = []
 
   button.addEventListener('click', () => {
     console.log('button was clicked')
 
-  const myCart = []
-  const itemInCart = findById(hats, hats.id)
   
+  const itemInCart = findById(hats, id)
+  console.log(itemInCart);
+
   if (itemInCart === undefined) {
     const newItemInCart = { 
-      id: hats.id, 
+      id: id, 
       quantity: 1
     };
   
@@ -32,6 +34,9 @@ export function createProduct(productObject) {
       itemInCart.quantity++;
 
   }
+
+
+  localStorage.setItem('HATS', JSON.stringify(myCart))
 
   });
 

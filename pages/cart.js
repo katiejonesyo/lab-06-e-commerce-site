@@ -1,10 +1,13 @@
-import cart from '../pages/data/cartData.js';
+//import cart from '../pages/data/cartData.js';
 import { hats } from '../products/hats.js';
 import { findById, createNewElement } from '../utils.js';
 import { renderLineItem, calcOrderTotal } from '../pages/data/cart-utils.js';
 
 const table = document.querySelector('table');
 const tbody = document.querySelector('tbody');
+const stringyCart = localStorage.getItem('HATS');
+const cart = JSON.parse(stringyCart);
+
 
 for (let i = 0; i < cart.length; i++) {
   const product = findById(hats, cart[i].id);

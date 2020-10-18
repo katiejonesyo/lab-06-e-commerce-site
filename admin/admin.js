@@ -27,7 +27,6 @@ form.addEventListener('submit', (e) => {
     };
 
     const localStorageHats = getLocalStorageHats();
-
     localStorageHats.push(newHat);
 
     const stringyLocalHats = JSON.stringify(localStorageHats);

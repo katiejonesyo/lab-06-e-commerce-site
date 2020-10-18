@@ -44,7 +44,7 @@ test('calcOrderTotal should return the subtotal for all cart line items', (expec
         },
     ];
 
-    const expected = 200 + 30 + 75;
+    const expected = 100 + 25 + 75;
 
     const actual = calcOrderTotal(mockedCartData, hats);
 

@@ -25,7 +25,7 @@ test('createNewElement can create an table data element with colspan as optional
 
     const expected = `<td id="fancyHat-item" class="line-item" colspan="3">Fancy Hat</td>`;
 
-    const actual = createNewElement('td', 'Fanycy Hat', { id: "fancyHat-item", className: "line-item", colSpan: 3 });
+    const actual = createNewElement('td', 'Fancy Hat', { id: "fancyHat-item", className: "line-item", colSpan: 3 });
 
     expect.equal(actual.outerHTML, expected);
 });
